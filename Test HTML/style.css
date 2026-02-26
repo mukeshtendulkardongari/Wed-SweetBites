@@ -1,10 +1,10 @@
 header{
     background-color: rgb(75,24,24);
     color: white;
-    padding: 10px;
+    padding: 10px 40px 10px;
 }
 .firstsection{
-    padding: 50px;
+    padding: 100px;
     background-color: rgb(75,24,24,0.8);
     color: white;
     text-align: center;
@@ -26,7 +26,7 @@ header{
     width: 200px;
     height:360px ;
     border: 3px solid rgb(75,24,24);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .card img{
     padding-top: 30px;
@@ -44,8 +44,13 @@ header{
 .contact h1{
     color: rgb(75,24,24);
 }
+.contact button{
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+}
 .about{
-    padding: 30px;
+    padding: 80px 30px 80px;
     text-align: center;
     color: white;
     background-color: rgb(75,24,24);
@@ -58,7 +63,7 @@ header{
     height: 200px;
     background-color: rgb(75,24,24);
     color: white;
-    padding: 10px;
+    padding: 10px 40px 10px;
 }
 .dummy1{
     width: 400px;
@@ -78,16 +83,24 @@ header{
     border-top-right-radius: 50%;
 
 }
-.table{
+.table1{
     text-align: center;
 }
-table{
+.item{
+    border-collapse: collapse;
     text-align: center;
     width: 500px;
     height: 200px;
-    border: 2px solid;
-    border-collapse: collapse;
+    border: 2px solid black;
     margin: auto;
+
+}
+th, td{
+    border:2px solid black;
+    padding: 6px;
+}
+.strike{
+    text-decoration: line-through;
 }
 footer{
     background-color: rgb(75,24,24);
