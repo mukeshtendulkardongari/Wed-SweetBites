@@ -1,0 +1,97 @@
+header{
+    background-color: rgb(75,24,24);
+    color: white;
+    padding: 10px;
+}
+.firstsection{
+    padding: 50px;
+    background-color: rgb(75,24,24,0.8);
+    color: white;
+    text-align: center;
+}
+.view{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.second{
+    color: rgb(75,24,24);
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    width: 200px;
+    height:360px ;
+    border: 3px solid rgb(75,24,24);
+    border-radius: 5px;
+}
+.card img{
+    padding-top: 30px;
+}
+.card button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(75,24,24);
+    color: white;
+}
+.contact{
+    text-align: center;
+    padding: 30px;
+}
+.contact h1{
+    color: rgb(75,24,24);
+}
+.about{
+    padding: 30px;
+    text-align: center;
+    color: white;
+    background-color: rgb(75,24,24);
+}
+.choose1{
+    display: flex;
+}
+.choose{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(75,24,24);
+    color: white;
+    padding: 10px;
+}
+.dummy1{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(75,24,24);
+    color: white;
+    padding: 10px;
+}
+
+.dummy{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(75,24,24);
+    color: white;
+    padding: 10px;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+
+}
+.table{
+    text-align: center;
+}
+table{
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    border: 2px solid;
+    border-collapse: collapse;
+    margin: auto;
+}
+footer{
+    background-color: rgb(75,24,24);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
